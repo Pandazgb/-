@@ -1,0 +1,42 @@
+body {}
+
+fieldset {
+	width: 400px;
+	margin: 0 auto;
+	position: relative;
+}
+
+textarea {
+	width: 100%;
+	resize: none;
+    
+}
+
+.div {
+	width: 400px;
+	display: flex;
+	height: 100%;
+}
+
+.czbt {
+	width: 200px;
+	height: 25px;
+	margin: 10px 10px 10px 10px;
+
+}
+
+#zdxx {
+	height: 400px;
+}
+
+div .ability{
+	background-color: white;
+	border: white;
+	width: 25px;
+	text-align: center;
+}
+#name{
+	background-color: white;
+	border: white;
+	text-align: center;
+}

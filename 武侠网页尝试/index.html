@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<style type="text/css">
+	</style>
+	<head>
+		<meta charset="utf-8" />
+		<title>武侠网页游戏</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+
+	</head>
+	<body>
+		<button type="button" id="start">开始战斗</button>
+		<fieldset id="abulate">
+			<legend>属性信息</legend>
+			人物姓名:
+			<input type="text" class="ability" id="name" value="" readonly="readonly" />
+			<button type="file" style="position: relative; left: 40px;">导入初始数据</button>
+			<br>
+			<div>
+				血<em style="color: white;">血量</em>量
+				<input type="text" id="xl" value="" readonly="readonly" class="ability" />
+				<button type="button" id="addxl" class="add">+</button>
+				耗<em style="color: white;">耗损</em>损
+				<input type="text" id="hs" value="" readonly="readonly" class="ability" />
+				<button type="button" id="addhs" class="add">+</button>
+
+				<br>
+				手臂强度
+				<input type="text" id="sb" value="" readonly="readonly" class="ability" />
+				<button type="button" id="addsb" class="add">+</button>
+				腰部强度
+				<input type="text" id="yb" value="" readonly="readonly" class="ability" />
+				<button type="button" id="addyb" class="add">+</button>
+				腿部强度
+				<input type="text" id="tb" value="" readonly="readonly" class="ability" />
+				<button type="button" id="addtb" class="add">+</button>
+			</div>
+		</fieldset>
+		<fieldset id="zdxx">
+			<legend>战斗信息</legend>
+			<div class="div">
+				<textarea id="zdqk" rows="" cols="" value="" readonly="readonly" draggable="false">
+			</textarea>
+			</div>
+		</fieldset>
+		<fieldset id="cz">
+			<legend>操作</legend>
+			<div class="div">
+				<button type="button" class="czbt" id="h">进攻上部</button>
+				<button type="button" class="czbt" id="m">进攻中部</button>
+				<button type="button" class="czbt" id="l">进攻下部</button>
+				<button type="button" class="czbt" id="v">快速后撤</button>
+			</div>
+
+
+		</fieldset>
+	</body>
+	<script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/function.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/run.js" type="text/javascript" charset="utf-8"></script>
+</html>
